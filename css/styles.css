@@ -1,0 +1,79 @@
+/*Authors: amal
+Date:28.03.2022
+time: 3:30 pm*/
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #292424d9;
+}
+.banner{
+	background: #141111bf;
+	font-size: 24px;
+
+}
+
+.section1{
+	background-image:  url('../img/intro-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 30px;
+	color: white;
+}
+.section1 h2{
+	font-size: 70px;
+}
+.section2{
+	background-color: #322f2fcc;
+}
+.vh-60{
+	height: 60vh;
+}
+.vh-46{
+	height: 46vh;
+}
+.section3{
+	height: 10vh;
+	background-color: #322f2fcc;
+	font-size: 24px;
+}
+
+
+.section4{
+	background-color: #322f2fcc;
+
+}
+.section4 h5{
+	font-size: 24px;
+}
+.section4 p{
+	font-size: 15px;
+}
+.section5{
+	padding: 50px;
+	height: 50vh;
+	margin: 100px;
+	background-color: white;
+
+}
+.section5 h5{
+	font-size: 25px;
+}
+.section5 img{
+	border: 0;
+}
+
+
+/*---Media Query---*/
+
+@Media only screen and (Max-width: 576px){
+
+*{
+	margin: 0;
+	padding:0;
+}
+
+
+
